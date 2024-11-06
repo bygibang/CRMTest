@@ -1,0 +1,36 @@
+$green-bg:rgb(22,192,152,0.38);
+$green-text:#00B087;
+
+$red-bg:#FFC5C5;
+$red-text:#DF0404;
+
+$main-color:#5932EA;
+
+$nav-text-gray:#9197B3;
+$main-text-gray:#B5B7C0;
+
+$search-bg:#F9FBFF;
+
+
+
+
+
+@mixin display-flex {
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+ }
+@mixin hover {
+	&:hover {
+	  background-color: $main-color;
+	  color: white;
+	  cursor: pointer;
+	  @include transition;
+	}
+ }
+@mixin transition {
+	-webkit-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}

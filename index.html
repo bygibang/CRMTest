@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:regular,500,600" rel="stylesheet" />
+</head>
+
+<body>
+	<header class="header"></header>
+	<button class="main__toggle">→</button>
+
+	<main class="main">
+
+		<section class="main__container">
+			<div>
+				<div class="main__logo">
+					<img src="./images/logo.svg" alt="Company logo" class="main__img" width="37" height="37">
+					<div>
+						<h1 class="main__title">Dashboard</h1>
+						<p class="main__description">v.01</p>
+					</div>
+				</div>
+				<nav class="main__navigation" aria-label="Main navigation">
+					<a href="/" class="item-link">
+						<div class="item-link__title">
+							<img src="./images/keyIcon.svg" alt="Dashboard">
+							<h2>Dashboard</h2>
+						</div>
+						<p class="item-link__arrow">></p>
+					</a>
+					<a href="/" class="item-link">
+						<div class="item-link__title">
+							<img src="./images/productIcon.svg" alt="Product">
+							<h2>Product</h2>
+						</div>
+						<p class="item-link__arrow">></p>
+					</a>
+					<a href="/" class="item-link">
+						<div class="item-link__title">
+							<img src="./images/userIcon.svg" alt="Customers">
+							<h2>Customers</h2>
+						</div>
+						<p class="item-link__arrow">></p>
+					</a>
+					<a href="/" class="item-link">
+						<div class="item-link__title">
+							<img src="./images/walletIcon.svg" alt="Income">
+							<h2>Income</h2>
+						</div>
+						<p class="item-link__arrow">></p>
+					</a>
+					<a href="/" class="item-link">
+						<div class="item-link__title">
+							<img src="./images/discountIcon.svg" alt="Promote">
+							<h2>Promote</h2>
+						</div>
+						<p class="item-link__arrow">></p>
+					</a>
+					<a href="/" class="item-link">
+						<div class="item-link__title">
+							<img src="./images/helpIcon.svg" alt="Help">
+							<h2>Help</h2>
+						</div>
+						<p class="item-link__arrow">></p>
+					</a>
+
+
+
+				</nav>
+			</div>
+			<div class="main__profile">
+				<img src="./images/profileAvatar.svg" alt="User photo">
+				<div class="main__user">
+					<h4 class="main__name">Evano</h4>
+					<h5 class="main__position">Project Manager</h5>
+				</div>
+			</div>
+		</section>
+
+		<section class="customers">
+			<h1 class="customers__greetings">Hello Evano 👋🏼,</h1>
+
+
+
+			<div class="customers__dashboard">
+				<div class="customers__container">
+					<div class="customers__title">
+						<div class="customers__header">
+							<h2>All Customers</h2>
+							<p>Active Members</p>
+						</div>
+						<div class="customers__search">
+							<img src="./images/searchIcon.svg" alt="search">
+							<input type="text" class="customers__input" placeholder="search">
+						</div>
+					</div>
+					<section class="table-container">
+						<table class="customer-table">
+							<thead class="customer-table__header">
+								<tr>
+									<th>Customer Name</th>
+									<th>Company</th>
+									<th>Phone Number</th>
+									<th>Email</th>
+									<th>Country</th>
+									<th>Status</th>
+								</tr>
+							</thead>
+							<tbody class="customer-table__body">
+								<tr>
+									<td>Jane Cooper</td>
+									<td>Microsoft</td>
+									<td>(225) 555-0118</td>
+									<td>jane@microsoft.com</td>
+									<td>United States</td>
+									<td class="customer-table__status">
+										<span
+											class="customer-table__status-label customer-table__status-label--active">Active</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Floyd Miles</td>
+									<td>Yahoo</td>
+									<td>(205) 555-0100</td>
+									<td>floyd@yahoo.com</td>
+									<td>Kiribati</td>
+									<td class="customer-table__status">
+										<span
+											class="customer-table__status-label customer-table__status-label--inactive">Inactive</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Ronald Richards</td>
+									<td>Adobe</td>
+									<td>(302) 555-0107</td>
+									<td>ronald@adobe.com</td>
+									<td>Israel</td>
+									<td class="customer-table__status">
+										<span
+											class="customer-table__status-label customer-table__status-label--inactive">Inactive</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Marvin McKinney</td>
+									<td>Tesla</td>
+									<td>(252) 555-0126</td>
+									<td>marvin@tesla.com</td>
+									<td>Iran</td>
+									<td class="customer-table__status">
+										<span
+											class="customer-table__status-label customer-table__status-label--active">Active</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Jerome Bell</td>
+									<td>Google</td>
+									<td>(629) 555-0129</td>
+									<td>jerome@google.com</td>
+									<td>Réunion</td>
+									<td class="customer-table__status">
+										<span
+											class="customer-table__status-label customer-table__status-label--active">Active</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Kathryn Murphy</td>
+									<td>Microsoft</td>
+									<td>(406) 555-0120</td>
+									<td>kathryn@microsoft.com</td>
+									<td>Curaçao</td>
+									<td class="customer-table__status">
+										<span
+											class="customer-table__status-label customer-table__status-label--active">Active</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Jacob Jones</td>
+									<td>Yahoo</td>
+									<td>(208) 555-0112</td>
+									<td>jacob@yahoo.com</td>
+									<td>Brazil</td>
+									<td class="customer-table__status">
+										<span
+											class="customer-table__status-label customer-table__status-label--active">Active</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Kristin Watson</td>
+									<td>Facebook</td>
+									<td>(704) 555-0127</td>
+									<td>kristin@facebook.com</td>
+									<td>Åland Islands</td>
+									<td class="customer-table__status">
+										<span
+											class="customer-table__status-label customer-table__status-label--inactive">Inactive</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</section>
+					<div class="customers__entries">
+						<p>Showing data 1 to 8 of 256K entries</p>
+						<div class="customers__pagination">
+							<a href="" class="customers__page-link"><</a>
+									<a href="" class="customers__page-link">1</a>
+									<a href="" class="customers__page-link">2</a>
+									<a href="" class="customers__page-link">3</a>
+									<a href="" class="customers__page-link">4</a>
+									<a href="">...</a>
+									<a href="" class="customers__page-link">40</a>
+									<a href="" class="customers__page-link">></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer"></footer>
+	<script src="./js/main.js" defer></script>
+</body>
+</html>
